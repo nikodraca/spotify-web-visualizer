@@ -1,0 +1,71 @@
+/**
+ * Place your custom CSS styles here.
+ **/
+
+#visualizer {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#visualizer-inner {
+  z-index: 2;
+  position: absolute;
+}
+
+.visualizer-img {
+  width: 150vw;
+  height: auto;
+  position: fixed;
+  top: -20%;
+  left: -20%;
+  filter: blur(20px) brightness(0.5);
+  z-index: -1;
+}
+
+.song-img {
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 2%;
+}
+
+.visualizer-text {
+  color: white;
+  margin: 1% 0%;
+}
+
+#close-btn {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 2% 2%;
+  background: none;
+  border: none;
+}
+
+#show-visualizer {
+  background-color: transparent;
+  border: none;
+  color: #b3b3b3;
+  width: 32px;
+  min-width: 32px;
+  height: 32px;
+  position: relative;
+}
+
+.visualizer-player {
+  position: fixed;
+  bottom: 0;
+  z-index: 11;
+  margin-bottom: 2%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
