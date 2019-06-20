@@ -1,8 +1,8 @@
 {
   "name": "Spotify Web Visualizer",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "manifest_version": 2,
-  "description": "Fullscreen visulizer for Spotify Web",
+  "description": "Full screen visualizer for Spotify Web",
   "homepage_url": "http://www.nikodraca.com/",
   "icons": {
     "16": "icons/icon16.png",
