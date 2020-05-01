@@ -131,7 +131,7 @@ chrome.extension.sendMessage({}, (response) => {
       clearInterval(readyStateCheckInterval);
 
       // append visualizer
-      $('body').append(`<div id="visualizer"></div>`);
+      $('.now-playing-bar').prepend(`<div id="visualizer"></div>`);
 
       // start mutation observer for currently playing
       startListening();

@@ -9,16 +9,11 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  z-index: 10;
+  z-index: 1;
 
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-#visualizer-inner {
-  z-index: 2;
-  position: absolute;
 }
 
 .visualizer-img {
@@ -64,7 +59,7 @@
 .visualizer-player {
   position: fixed;
   bottom: 0;
-  z-index: 11;
+  z-index: 10;
   margin-bottom: 2%;
   left: 50%;
   transform: translate(-50%, 0);
